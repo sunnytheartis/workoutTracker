@@ -4,7 +4,7 @@ const db = require('../models');
 mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
   useFindAndModify: false,
-  useUnifiedTopology: true,
+  
 });
 
 const workoutSeed = [
@@ -18,7 +18,7 @@ const workoutSeed = [
         weight: 100,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -31,7 +31,7 @@ const workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -44,7 +44,7 @@ const workoutSeed = [
         weight: 185,
         reps: 8,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -55,7 +55,7 @@ const workoutSeed = [
         name: 'Running',
         duration: 25,
         distance: 4,
-      },
+      }
     ],
   },
   {
@@ -68,7 +68,7 @@ const workoutSeed = [
         weight: 285,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -81,7 +81,7 @@ const workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -94,7 +94,7 @@ const workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -107,7 +107,7 @@ const workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
   {
@@ -120,7 +120,7 @@ const workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4,
-      },
+      }
     ],
   },
 ];
